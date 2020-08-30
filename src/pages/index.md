@@ -20,7 +20,7 @@ sections:
     image_position: right
     has_background: true
     background:
-      background_color: blue
+      background_color: yellow
       background_image: images/diagonal-lines.svg
       background_image_opacity: 20
       background_image_size: auto
@@ -85,6 +85,6 @@ sections:
         url: /features
         style: primary
     has_background: true
-    background_color: gray
+    background_color: red
 template: advanced
 ---

@@ -1,4 +1,10 @@
 // Colors
+$primary:                      #eb3845 !default;
+$secondary:                    #ffd629 !default;
+$tertiary:                     #389feb !default;
+$white:                        #ffffff !default;
+$dark:                         #282f36 !default; 
+
 // Base
 $color-text:                   #536171 !default;
 $color-heading:                #282f36 !default;
@@ -9,7 +15,7 @@ $color-bg-overlay:             rgba(245,246,247,.8) !default;
 $color-border:                 #e1e4e9 !default;
 
 // Links
-$color-link:                   #28aaff !default;
+$color-link:                   $primary !default;
 
 // Blockquotes
 $color-blockquote:             #282f36 !default;
@@ -25,30 +31,55 @@ $color-btn-alt-border:         #28aaff !default;
 $color-btn-clear:              #282f36 !default;
 
 // Navigation
-$color-nav-link:               #536171 !default;
-$color-nav-link-hover:         #28aaff !default;
-$color-nav-link-active:        #28aaff !default;
+$color-nav-link:               $dark !default;
+$color-nav-link-hover:         $secondary !default;
+$color-nav-link-active:        $primary !default;
 
-// Inverse (light text on dark background)
-$color-inverse-text:           #f5f6f7 !default;
-$color-inverse-heading:        #fff !default;
-$color-inverse-bg:             #005bc4 !default;
-$color-inverse-link:           #f5f6f7 !default;
-$color-inverse-btn:            #fff !default;
-$color-inverse-btn-bg:         #28aaff !default;
-$color-inverse-btn-border:     #28aaff !default;
-$color-inverse-btn-alt:        #28aaff !default;
-$color-inverse-btn-alt-bg:     #fff !default;
-$color-inverse-btn-alt-border: #fff !default;
-$color-inverse-btn-clear:      #fff !default;
+// Red Inverse (yellow text on red background)
+$color-red-inverse-text:           $dark !default;
+$color-red-inverse-heading:        $secondary !default;
+$color-red-inverse-bg:             $secondary !default;
+$color-red-inverse-link:           $secondary !default;
+$color-red-inverse-btn:            $primary !default;
+$color-red-inverse-btn-bg:         $secondary !default;
+$color-red-inverse-btn-border:     $secondary !default;
+$color-red-inverse-btn-alt:        $secondary !default;
+$color-red-inverse-btn-alt-bg:     $primary !default;
+$color-red-inverse-btn-alt-border: $secondary !default;
+$color-red-inverse-btn-clear:      $secondary !default;
 
+// yellow Inverse (red text on yellow background)
+$color-yellow-inverse-text:           $dark !default;
+$color-yellow-inverse-heading:        $primary !default;
+$color-yellow-inverse-bg:             $primary !default;
+$color-yellow-inverse-link:           $primary !default;
+$color-yellow-inverse-btn:            $secondary !default;
+$color-yellow-inverse-btn-bg:         $primary !default;
+$color-yellow-inverse-btn-border:     $primary !default;
+$color-yellow-inverse-btn-alt:        $primary !default;
+$color-yellow-inverse-btn-alt-bg:     $secondary !default;
+$color-yellow-inverse-btn-alt-border: $primary !default;
+$color-yellow-inverse-btn-clear:      $primary !default;
+
+// yellow Inverse (yellow text on blue background)
+$color-blue-inverse-text:           $dark !default;
+$color-blue-inverse-heading:        $secondary !default;
+$color-blue-inverse-bg:             $secondary !default;
+$color-blue-inverse-link:           $secondary !default;
+$color-blue-inverse-btn:            $tertiary !default;
+$color-blue-inverse-btn-bg:         $secondary !default;
+$color-blue-inverse-btn-border:     $secondary !default;
+$color-blue-inverse-btn-alt:        $secondary !default;
+$color-blue-inverse-btn-alt-bg:     $tertiary !default;
+$color-blue-inverse-btn-alt-border: $secondary !default;
+$color-blue-inverse-btn-clear:      $secondary !default;
 
 // Shadows
 $box-shadow: 0 0 1em rgba(0,0,0,.08) !default;
 
 
 // Typography
-$font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans",Helvetica,sans-serif;
+$font-family-sans-serif: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,sans-serif;
 $font-family-monospace:  Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 $font-family-base:       $font-family-sans-serif;
 

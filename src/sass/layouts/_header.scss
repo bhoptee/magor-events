@@ -30,7 +30,9 @@
 }
 
 .navbar__item {
-  font-size: 0.875em;
+  font-size: 1em;
+  font-weight: 800;
+  font-family: 'Bree Serif', serif;
 }
 
 @include media-breakpoint-up(md) {
@@ -44,7 +46,21 @@
   }
 
   .navbar__item {
-    margin-left: 1.25rem;
+    margin-right: 0.7rem;
+    &:not(.navbar__item--btn) {
+      &::after {
+        color:$primary;
+        margin-left: 0.7rem;
+        content: "|";
+      } 
+    &:nth-last-child(2){
+      &::after {
+        margin-left: 0.7rem;
+        content: "";
+      }
+    }
+    }
+    
   }
 
   .js-menu-toggle {
@@ -71,6 +87,19 @@
   .navbar__menu-btn,
   .navbar__close-btn {
     margin-left: auto;
+    padding-right: 0.5em;
+  }
+
+  .navbar__menu-btn {
+    &:after {
+      content: "MENU"; 
+    }
+  }
+
+  .navbar__close-btn {
+    &:after {
+      content: "CLOSE";
+    }
   }
 
   .navbar__menu {

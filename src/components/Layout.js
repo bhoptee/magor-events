@@ -16,6 +16,7 @@ export default class Body extends React.Component {
                     <meta name="viewport" content="width=device-width, initialScale=1.0" />
                     <meta name="description" content={_.get(this.props, 'pageContext.frontmatter.excerpt', null) || _.get(this.props, 'pageContext.site.siteMetadata.description', null)}/>
                     <link rel="stylesheet" href={withPrefix('assets/css/main.css')}/>
+                    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet"></link>
                 </Helmet>
                 <div id="site-wrap" className="site">
                   <Header {...this.props} />

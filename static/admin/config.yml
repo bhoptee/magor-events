@@ -252,7 +252,7 @@ collections:
         hint: The type of the object
         default: person
   - name: category
-    label: Categorys
+    label: Categories
     folder: src/data/categories
     create: true
     identifier_field: title

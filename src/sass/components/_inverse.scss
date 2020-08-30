@@ -1,11 +1,11 @@
 /**
- * Styles for dark backgrounds
+ * Styles for yellow text with red backgrounds
  */
-.inverse {
-  color: $color-inverse-text;
+.red-inverse {
+  color: $color-red-inverse-text;
 
   a {
-    color: $color-inverse-link;
+    color: $color-red-inverse-link;
   }
 
   h1,
@@ -14,23 +14,98 @@
   h4,
   h5,
   h6 {
-    color: $color-inverse-heading;
+    color: $color-red-inverse-heading;
   }
 
   .btn {
-    background-color: $color-inverse-btn-bg;
-    border-color: $color-inverse-btn-border;
-    color: $color-inverse-btn;
+    background-color: $color-red-inverse-btn-bg;
+    border-color: $color-red-inverse-btn-border;
+    color: $color-red-inverse-btn;
   }
 
   .btn--secondary {
-    background-color: $color-inverse-btn-alt-bg;
-    border-color: $color-inverse-btn-alt-border;
-    color: $color-inverse-btn-alt;
+    background-color: $color-red-inverse-btn-alt-bg;
+    border-color: $color-red-inverse-btn-alt-border;
+    color: $color-red-inverse-btn-alt;
   }
 
   .btn--clear {
     background: 0;
-    color: $color-inverse-btn-clear;
+    color: $color-red-inverse-btn-clear;
+  }
+}
+
+/**
+ * Styles for red text with yellow backgrounds
+ */
+ .yellow-inverse {
+  color: $color-yellow-inverse-text;
+
+  a {
+    color: $color-yellow-inverse-link;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-yellow-inverse-heading;
+  }
+
+  .btn {
+    background-color: $color-yellow-inverse-btn-bg;
+    border-color: $color-yellow-inverse-btn-border;
+    color: $color-yellow-inverse-btn;
+  }
+
+  .btn--secondary {
+    background-color: $color-yellow-inverse-btn-alt-bg;
+    border-color: $color-yellow-inverse-btn-alt-border;
+    color: $color-yellow-inverse-btn-alt;
+  }
+
+  .btn--clear {
+    background: 0;
+    color: $color-yellow-inverse-btn-clear;
+  }
+}
+
+
+/**
+ * Styles for yellow text with blue backgrounds
+ */
+ .blue-inverse {
+  color: $color-blue-inverse-text;
+
+  a {
+    color: $color-blue-inverse-link;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-blue-inverse-heading;
+  }
+
+  .btn {
+    background-color: $color-blue-inverse-btn-bg;
+    border-color: $color-blue-inverse-btn-border;
+    color: $color-blue-inverse-btn;
+  }
+
+  .btn--secondary {
+    background-color: $color-blue-inverse-btn-alt-bg;
+    border-color: $color-blue-inverse-btn-alt-border;
+    color: $color-blue-inverse-btn-alt;
+  }
+
+  .btn--clear {
+    background: 0;
+    color: $color-blue-inverse-btn-clear;
   }
 }
